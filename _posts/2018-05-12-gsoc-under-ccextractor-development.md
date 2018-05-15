@@ -29,9 +29,9 @@ And one major reason which I'm eagerly waiting to write is "FOR THE LOVE OF CODE
 There are a lot of tools under CCExtractor Development, but the core tool that names the organization ([CCExtractor](https://www.ccextractor.org/)) is a command-line program written in C. CCExtractor is a tool that analyzes video files and produces independent subtitle files from the closed captions data. It is portable, small, and very fast. And it works on all the major platforms i.e. Linux, Windows, and OSX.
 
 ## About my project
-As a part of GSoC a few years back, the capability of extracting burned-in (hard) subtitles from videos was added to CCExtractor which wasn't supported by CCExtractor earlier and was a computer vision problem altogether. This was done by [Abhinav Shukla](https://github.com/Abhinav95), a former GSoC student, who will also be mentoring my project throughout the summer. [My project](https://summerofcode.withgoogle.com/projects/#6265530407714816) is along the lines of image processing and is to improve upon the existing work, majorly, in the area of burned-in subtitles and add some more capabilities to CCExtractor. The exact features I plan to work on, are:
+As a part of GSoC a few years back, the capability of extracting burned-in (hard) subtitles from videos was added to CCExtractor which wasn't supported by CCExtractor earlier and was a computer vision problem altogether. This was done by [Abhinav Shukla](https://github.com/Abhinav95), a former GSoC student, who will also be mentoring my project throughout the summer. [My project](https://summerofcode.withgoogle.com/projects/#6265530407714816) is along the lines of image processing and is to improve upon the existing work, majorly, in the area of burned-in subtitles where I'll be working on to improve the color detection pipeline and also, try and add some more capabilities to CCExtractor. The exact features I plan to work on, are:
 - Extract subtitles in case of moving text such as tickers.
-- Automatically distinguish between different speakers in case of DVB and burned-in subtitles.
+- Automatically distinguish between different speakers in case of DVB and burned-in subtitles (i.e. the color-detection pipeline).
 - Handle word by word synchronization cases.
 - Add support for non-latin languages such as Mandarin.
 
