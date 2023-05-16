@@ -1,5 +1,5 @@
 ---
-title: Struggles of a self taught guitarist
+title: Struggles of a self-taught guitarist
 author: krushan
 date: 2023-05-15 00:00:00 +0530
 pin: true
